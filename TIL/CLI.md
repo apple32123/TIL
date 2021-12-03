@@ -33,6 +33,8 @@
 
 ​	
 
+## 필요한 명령어
+
 ```python
 $git init
 
@@ -44,14 +46,27 @@ $git config --global user.name "이름"
 
 $git config --global user.email 'mail'
 
-$ cat ~/.gitfonfig      =>입력한 대로 잘 나오는지 확인
+$cat ~/.gitfonfig      =>입력한 대로 잘 나오는지 확인
 
-$ git commit -m 'first commit'
+$git commit -m 'first commit' 
 ```
 
 
 
-## NEVER
+## 순서
+
+```python
+$git add "메이크업"
+$git commit -m 'first commit'      -> 스테이징	
+```
+
+
+
+
+
+
+
+## NEVER (주의)
 
 1. ~에서 git init 진행
 2.  리포 안에 리포 만들기
@@ -60,7 +75,7 @@ $ git commit -m 'first commit'
    2. (master) 떠 있는지
 
 
- 
+
 
 
 초기화시점 1회 입력
@@ -73,7 +88,7 @@ $git init
 
 $git add <filename>
 
-$git commit -m 'MESSAGE'
+$git commit -m 'NESSAGE'
 
 
 
